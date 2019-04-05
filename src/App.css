@@ -1,33 +1,138 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.main { /* putting 'main' above the rest >>> gets overwritten when addt'l classnames are added */
+  width: 150px;
+  height: 150px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circle {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.para {
+  width: 150px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  transform: skew(20deg);
+}
+
+.resetWrap {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.reset {
+  width: 75px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: lightgrey;
+}
+
+.reset:hover {
+  background-color: #e8e8ef;
+}
+
+.one {
+  background-color: #75FF33;
+}
+
+.one:hover {
+  background-color: #B7FF33;
+}
+
+.two {
+  background-color: #ffd966;
+}
+
+.two:hover {
+  background-color: #FFF133;
+}
+
+.three {
+  background-color: #6666ff;
+}
+
+.three:hover {
+  background-color: #66d9ff;
+}
+
+.four {
+  background-color: #FF3333;
+
+}
+
+.four:hover {
+  background-color: #ed7878;
+}
+
+.five {
+  background-color: #bb09e8;
+}
+
+.five:hover {
+  background-color: #cb76e0;
+}
+
+.six {
+  background-color: #00efd3;
+}
+
+.six:hover {
+  background-color: #a5efe6;
+}
+
+.seven {
+  background-color: #ed749e;
+}
+
+.seven:hover {
+  background-color: #ffa0c1;
+}
+
+.eight {
+  background-color: #d4ff28;
+}
+
+.eight:hover {
+  background-color: #ddf96d;
 }
